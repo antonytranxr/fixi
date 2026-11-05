@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "testTotals": {
+    "tests": 431,
+    "failures": 0
+  },
+  "sourceFileCount": 59,
+  "productionMatchesSnapshot": true,
+  "harnessMatchesSnapshot": true,
+  "testScope": "SDK-free offline logic and transport tests; no live APIs, keys, native glasses, or acoustic verification",
+  "version": "1.0",
+  "build": "21",
+  "kind": "Preserved original build 21 validation; no provider requests or physical glasses tests.",
+  "publicationCompileCheck": {
+    "date": "2026-11-04",
+    "source": "Clean public build 21 checkout",
+    "tool": "xcodebuild",
+    "destination": "generic/platform=iOS Simulator",
+    "codeSigningAllowed": false,
+    "passed": true,
+    "result": "BUILD SUCCEEDED",
+    "scope": "Fresh compilation only; the 431 tests above are preserved baseline results. No simulator UI review, physical glasses trial, or live provider request."
+  }
+}

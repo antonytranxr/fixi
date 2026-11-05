@@ -1,0 +1,14 @@
+FIXI TRANSPARENT BUBBLE — BUILD 16
+Method: built-in image_gen editing, transparent_background=true.
+Input: Fixi/Resources/Brand/Fixi-liquid-glass-original.png (selected icon option 2).
+Final asset: Fixi/Resources/Assets.xcassets/FixiBubble.imageset/FixiBubble.png
+Public copy: outputs/Fixi-bubble-transparent.png
+The opaque iOS home-screen app icon is retained; screen artwork uses the transparent bubble.
+
+First prompt:
+Edit target: the attached Fixi logo. Make a precise transparent-background cutout of ONLY the existing glossy blue/cyan/purple glass bubble with the white wrench inside. Remove the entire square blue/purple background outside the bubble, including any floor shadow or backdrop glow. Preserve the bubble's exact shape, tilt, proportions, translucent/glossy rim, internal colors, highlights, and wrench shape and direction. Keep all pixels inside the bubble visually faithful to the reference; do not redesign, add text, add another icon, or place the mark on a tile. The outer edge should have clean antialiased alpha on a genuinely transparent canvas, with a small even transparent margin. Output one centered isolated Fixi bubble logo PNG with alpha.
+
+Final cleanup prompt:
+Targeted cleanup of this transparent Fixi bubble cutout. Preserve the bubble and white wrench exactly. The only requested change: remove ALL detached colored speckles, irregular fringe, wisps, and leftover backdrop outside the smooth outer glass rim, especially above the bubble and on its upper right. The outside must be completely alpha=0; the rim itself should follow the single smooth rounded contour of the bubble with clean anti-aliasing, no rough ragged halo. Keep the bubble's blue/cyan/purple content, highlights, original silhouette, wrench proportions, scale and placement unchanged. Do not add text, glow beyond the rim, shadows, floor, tile or background. Final output is the isolated polished bubble on true transparent PNG canvas.
+
+Validation: RGBA PNG, 1254 x 1254; all four corner alpha values 0. Native intro renders this asset and the Fixi wordmark onto a separate transparent canvas; ordinary repair photos retain their original renderer. Phone welcome removes its former square clip and border.

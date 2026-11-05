@@ -1,0 +1,5 @@
+// Personal developer mode. Add production settings in Local.xcconfig.
+// Meta Model and OpenAI API keys are separate runtime Keychain entries in Settings.
+META_APP_ID = 0
+META_CLIENT_TOKEN =
+#include? "Local.xcconfig"
